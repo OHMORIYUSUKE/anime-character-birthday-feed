@@ -39,5 +39,5 @@ for idol in idols:
                     pubdate=today,
                 )
 
-with open("test.rss", "w") as fp:
+with open("dist/anime_character_birthday_feed.rss", "w") as fp:
     feed.write(fp, "utf-8")
