@@ -6,7 +6,7 @@ import datetime
 from anime_character_birthday_feed.idol_images import idol_images
 
 # today = datetime.date.today()
-today = datetime.datetime(2017, 4, 3, 9, 55, 28)
+today = datetime.datetime(2023, 8, 18, 9, 55, 28)
 
 feed = feedgenerator.Rss201rev2Feed(
     title="本日、誕生日のアイドルマスター ミリオンライブ！のアイドルを紹介🎂",
