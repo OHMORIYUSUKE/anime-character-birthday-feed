@@ -31,7 +31,7 @@ jobs:
       - name: RSS build
         run: |
           cd src/${{ env.PROJECT_DIR }}/
-          poetry run anime_character_birthday_feed/main.py
+          poetry install & poetry run anime_character_birthday_feed/main.py
       - name: RSS deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
